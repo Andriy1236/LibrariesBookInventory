@@ -341,10 +341,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LibrariesBookInventory,Api\LibrariesBookInventory.Api.csproj">
-      <Project>{4888C1BB-38BA-4E3F-B7C5-1BA36429B11A}</Project>
-      <Name>LibrariesBookInventory.Api</Name>
-    </ProjectReference>
     <ProjectReference Include="..\LibrariesBookInventory.Application\LibrariesBookInventory.Application.csproj">
       <Project>{FCAE0ABD-B0F9-4CC7-B3F5-65A583E2F013}</Project>
       <Name>LibrariesBookInventory.Application</Name>
