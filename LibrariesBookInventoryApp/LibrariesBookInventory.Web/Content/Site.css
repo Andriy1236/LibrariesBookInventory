@@ -1,0 +1,48 @@
+﻿/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .body-content {
+        padding: 0;
+    }
+}
+.center-align {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+}
+
+    .form-row label {
+        width: 150px;
+        font-weight: bold;
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    .form-row asp\\:TextBox,
+    .form-row asp\\:DropDownList {
+        flex: 1;
+    }
