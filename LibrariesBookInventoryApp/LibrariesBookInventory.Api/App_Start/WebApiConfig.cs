@@ -17,7 +17,7 @@ using System.Reflection;
 using System.Web.Http;
 using System.Net.Http.Formatting;
 
-namespace LibrariesBookInventoryApi
+namespace LibrariesBookInventory.Api
 {
     public static class WebApiConfig
     {

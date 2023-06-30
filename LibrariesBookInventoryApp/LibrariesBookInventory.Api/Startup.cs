@@ -1,7 +1,7 @@
 ﻿using Owin;
 using System.Web.Http;
 
-namespace LibrariesBookInventoryApi
+namespace LibrariesBookInventory.Api
 {
     public class Startup
     {

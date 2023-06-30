@@ -1,6 +1,6 @@
 ﻿using Autofac;
+using LibrariesBookInventory.Api;
 using LibrariesBookInventory.Persistence;
-using LibrariesBookInventoryApi;
 using Microsoft.Owin.Hosting;
 using System;
 using System.Configuration;
