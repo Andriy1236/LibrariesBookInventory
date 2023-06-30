@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Http;
 
-namespace LibrariesBookInventoryApi
+namespace LibrariesBookInventory.Api
 {
     public class WebApiApplication : HttpApplication
     {
